@@ -3,7 +3,6 @@ import { login } from './Login.cy';
 
 describe('Buzz Module Share Post Test in OrangeHRM 5.7', () => {
   beforeEach(() => {
-    // Login before each test
     login('m0bar0k', 'M0barok1234@');
   });
 
